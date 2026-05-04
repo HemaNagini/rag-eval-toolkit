@@ -1,0 +1,5 @@
+A knowledge graph is a structured representation of information using nodes and edges. Nodes represent entities such as people, places, or concepts. Edges represent relationships between those entities. Knowledge graphs are used in search engines, recommendation systems, and increasingly in AI applications.
+
+Neo4j is one of the most popular graph database systems. It uses the Cypher query language for traversing relationships. Other graph databases include Amazon Neptune, ArangoDB, and TigerGraph.
+
+GraphRAG is a recent approach that combines knowledge graphs with retrieval-augmented generation. Instead of only retrieving text chunks, GraphRAG also retrieves entity relationships from a graph. This allows the language model to reason over connections between entities, not just isolated facts. Microsoft published an influential GraphRAG paper in 2024 demonstrating significant improvements on multi-hop questions.

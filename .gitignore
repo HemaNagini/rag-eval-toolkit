@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data artifacts (we'll generate these later)
+data/index/
+*.faiss

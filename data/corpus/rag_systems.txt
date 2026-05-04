@@ -1,0 +1,5 @@
+Retrieval-Augmented Generation, often abbreviated RAG, is a technique used with large language models. RAG combines a retrieval step with a generation step. When a user asks a question, the system first searches a knowledge base for relevant documents and then provides those documents to the language model along with the original question.
+
+This approach was introduced by Meta researchers in 2020. The key benefit is that the model can produce answers grounded in specific source documents rather than relying solely on what it learned during training. This reduces hallucinations and allows the system to cite sources.
+
+Modern RAG systems use vector databases to store document embeddings. Common vector stores include FAISS, Pinecone, Weaviate, and pgvector. Embeddings are typically produced by models like OpenAI's text-embedding-3-small or open-source alternatives such as BGE and sentence-transformers. The retrieval step usually uses cosine similarity or other distance metrics to find the most relevant chunks.
